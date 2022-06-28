@@ -1,0 +1,104 @@
+.header {
+    background: #FFFFFF;
+    padding: 24px 0;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    &__wrap {
+        display: flex;
+        width: 436px;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+        background-color: #EFEFEF;
+        border-radius: 12px;
+        cursor: pointer;
+        &_w192 {
+            width: 192px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 130%;
+            color: #000;
+        }
+        &_w100 {
+            justify-content: space-between;
+            width: 100px;
+        }
+    }
+    &__obj {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(239, 239, 239, 0.3);
+        border-radius: 12px;
+        width: 50px;
+        height: 48px;
+    }
+    &__logo {
+        cursor: pointer;
+    }
+
+    &__form {
+        display: flex;
+        background: #EFEFEF;
+        border-radius: 12px;
+        width: 563px;
+        height: 48px;
+        input {
+            background: #EFEFEF;
+            border: none;
+            width: 526px;
+            border-radius: 12px;
+            text-align: center;
+        }
+    }
+    &__btn {
+        margin-left: 18px;
+        border: none;
+        background-color: #EFEFEF;
+    }
+}
+
+.hamburger {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6px;
+    span {
+        height: 2px;
+        width: 24px;
+        background-color: #005399;
+        margin-bottom: 6px;
+        border-radius: 2px;
+
+    }
+}
+
+
+.error {
+    width: 1320px;
+    height: 684px;
+    background-image: url('../icons/footer/full.svg');
+    padding: 588px 40px 40px 40px;
+    &__btn {
+        width: 1240px;
+        height: 56px;
+        background: #005399;
+        border-radius: 16px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        border: none;
+    }
+
+}
